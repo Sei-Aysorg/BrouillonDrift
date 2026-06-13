@@ -225,7 +225,7 @@
         <p class="section-label">Adresse</p>
 
         <div class="field">
-          <label>Adresse</label>
+          <label>Adresse complète</label>
           <input type="text" name="adresse_client" placeholder="12 rue de la Liberté" required>
         </div>
 

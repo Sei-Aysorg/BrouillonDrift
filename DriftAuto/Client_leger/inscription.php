@@ -9,7 +9,18 @@ $message = ""; // On initialise le message d'erreur à vide
 // Si l'utilisateur clique sur le bouton d'inscription
 if (isset($_POST['Valider'])) {
     
-    $mdp = $_POST['mdp_client'];
+    //$mdp = $_POST['mdp_client'];
+
+        $unControleur->insert_client($_POST);
+        ?>
+        <script>
+        alert ("Insertion réussie de l\'utilisateur.");
+        
+     
+        window.location = "connexion.php";
+        </script>
+        
+        <?php
     
 }
 
